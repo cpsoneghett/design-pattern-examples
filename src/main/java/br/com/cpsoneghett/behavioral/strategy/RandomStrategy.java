@@ -25,7 +25,4 @@ public class RandomStrategy implements LoadBalancingStrategy {
         this.random = random;
     }
 
-    public RandomWrapper getRandom() {
-        return random;
-    }
 }

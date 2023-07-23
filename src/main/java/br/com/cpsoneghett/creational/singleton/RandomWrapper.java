@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomWrapper {
 
     private final Random random;
-    private static RandomWrapper instance;
+    private static volatile RandomWrapper instance;
 
     public RandomWrapper() {
         this.random = new Random();
